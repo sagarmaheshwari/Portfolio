@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Portfolio';
+  innerWidth?: any;
+  innerHeight?: any;
+
+  ngOnInit() {
+    this.innerHeight = window.innerHeight;
+    this.innerWidth = window.innerWidth;
+    console.log(this.innerHeight, this.innerWidth)
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+  this.innerWidth = window.innerWidth;
+  this.innerHeight = window.innerHeight;
+}
 }

@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~boxicons/css/boxicons.min.css';
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'grotesk';
+    src: url('../src/assets/grotesk.ttf');
+}

@@ -1,0 +1,98 @@
+.body {
+    height: 100%;
+    width: 340px;
+    position: relative;
+    padding: 0 20px;
+}
+
+.screen {
+    height: 600px;
+    width: 350px;
+    border: 1px solid #B0B3B8;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 30px 40px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-name {
+    color: #F2F2F2;
+    font-family: grotesk;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.title-role {
+    font-family: grotesk;
+    display: flex;
+    color: #F2F2F2;
+    font-size: small;
+    word-wrap: break-word;
+}
+
+.dp {
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.info {
+    font-family: grotesk;
+    font-size: 18px;
+    color: #F2F2F2;
+    padding: 20px 0;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 100%;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.social-icon {
+    border: 1px solid #AAAAAA;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #AAAAAA;
+    padding: 7px;
+    margin: 0 7PX;
+}
+
+.hire {
+    display: flex;
+    margin-top: 30px;
+    background-color: #4FC978;
+    text-align: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    vertical-align: middle;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.hire-icon {
+    margin-top: auto; 
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+.hire-text {
+    margin-top: auto; 
+    margin-bottom: auto; 
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 4px;
+}
+
