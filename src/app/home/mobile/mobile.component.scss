@@ -1,21 +1,22 @@
 .body {
     height: 100%;
-    width: 340px;
+    width: 26vw;
     position: relative;
-    padding: 0 20px;
+    padding: 0 1.5vw;
+    box-sizing: border-box;
 }
 
 .screen {
-    height: 600px;
-    width: 350px;
-    border: 1px solid #B0B3B8;
+    height: 78vh;
+    width: 23vw;
+    border: 1px solid #808080;
     border-radius: 25px;
     box-sizing: border-box;
 
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    padding: 30px 40px;
+    padding: 5vh 2.5vw;
 
 }
 
@@ -28,7 +29,7 @@
 .title-name {
     color: #F2F2F2;
     font-family: grotesk;
-    font-size: 40px;
+    font-size: 5.5vh;
     vertical-align: middle;
 }
 
@@ -41,15 +42,16 @@
 }
 
 .dp {
-    margin-top: 10px;
+    margin-top: 1vh;
     border-radius: 25px;
+    width: 18vw;
 }
 
 .info {
     font-family: grotesk;
-    font-size: 18px;
+    font-size: 2.7vh;
     color: #F2F2F2;
-    padding: 20px 0;
+    padding: 2.5vh 0;
     word-wrap: break-word;
     text-align: center;
     line-height: 100%;
@@ -62,37 +64,37 @@
 }
 
 .social-icon {
-    border: 1px solid #AAAAAA;
+    border: 1px solid #808080;
     border-radius: 25px;
-    font-size: 20px;
-    color: #AAAAAA;
-    padding: 7px;
-    margin: 0 7PX;
+    font-size: 2.7vh;
+    color: #808080;
+    padding: 1vh;
+    margin: 0 1vh;
 }
 
 .hire {
     display: flex;
-    margin-top: 30px;
+    margin-top: 4vh;
     background-color: #4FC978;
     text-align: center;
     justify-content: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     vertical-align: middle;
     border-radius: 25px;
-    height: 40px;
+    height: 5vh;
 }
 
 .hire-icon {
     margin-top: auto; 
     margin-bottom: auto;
-    font-size: 20px;
+    font-size: 2.7vh;
 }
 
 .hire-text {
     margin-top: auto; 
     margin-bottom: auto; 
     font-weight: 600;
-    font-size: 17px;
-    padding-bottom: 4px;
+    font-size: 2.2vh;
+    padding-bottom: 0.8vh;
 }
 
