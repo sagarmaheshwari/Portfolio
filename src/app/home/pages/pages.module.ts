@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { AboutComponent } from './about/about.component';
+import { ResumeComponent } from './resume/resume.component';
 
 
 
@@ -10,6 +11,7 @@ import { AboutComponent } from './about/about.component';
   declarations: [
     IntroductionComponent,
     AboutComponent,
+    ResumeComponent,
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { AboutComponent } from './about/about.component';
   ],
   exports: [
     IntroductionComponent,
-    AboutComponent
+    AboutComponent,
+    ResumeComponent
   ]
 })
 export class PagesModule { }
