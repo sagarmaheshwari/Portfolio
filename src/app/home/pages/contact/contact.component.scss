@@ -1,0 +1,70 @@
+.page {
+    height: 89vh;
+    width: 100%;
+    font-family: grotesk;
+    color: #F2F2F2;
+    box-sizing: border-box;
+    margin-top: 11vh;
+}
+
+.heading {
+    margin-top: 4vh;
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.name {
+    color: #4FC978;
+}
+
+.description {
+    font-size: 0.8vw;
+    color: #F2F2F2;
+    line-height: 1.6;
+    text-justify: distribute;
+    margin-left: 0 auto;
+    text-align: center;
+    line-height: normal;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 8vw;
+    padding-top: 1vh;
+}
+
+.social {
+    display: flex;
+    border: 1px solid #808080;
+    border-radius: 1vw;
+    height: 2vw;
+    padding: 0 1vw;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.social:hover {
+    border: 2px solid #F2F2F2;
+}
+
+.social:hover .icon{
+    color: #4FC978;
+}
+
+.icon {
+    color: #AAAAAA;
+    margin: auto 0;
+}
+
+.social-text {
+    margin: auto 0;
+    margin-left: 1vw;
+    color: #F2F2F2;
+}
+
+.title {
+    font-size: 2vw;
+}

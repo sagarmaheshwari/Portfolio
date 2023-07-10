@@ -1,0 +1,50 @@
+.page {
+    height: 89vh;
+    width: 100%;
+    font-family: grotesk;
+    color: #F2F2F2;
+    box-sizing: border-box;
+    margin-top: 11vh;
+}
+
+.heading {
+    margin-top: 4vh;
+    font-size: 4vw;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.name {
+    color: #4FC978;
+}
+
+.description {
+    font-size: 0.8vw;
+    color: #F2F2F2;
+    line-height: 1.6;
+    text-justify: distribute;
+    margin-left: 0 auto;
+    text-align: center;
+    line-height: normal;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-template-rows: 25vh 25vh;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #808080;
+    border-radius: 4vw;
+    height: 22vh;
+    width: 8vw;
+    font-size: 5vw;
+}
+
+.icon {
+    margin: 3vh auto 3vh auto;
+    font-weight: 100;
+}

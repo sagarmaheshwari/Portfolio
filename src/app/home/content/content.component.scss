@@ -6,7 +6,6 @@
 }
 
 .content {
-    margin-top: 11vh;
     width: 63vw;
     display: flex;
     flex-direction: column;
@@ -38,6 +37,11 @@
     padding: 0.6vw 0.5vw;
 }
 
+.menu:hover {
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+
 .navigation-icons {
     width: 2.8vw;
     border: 1px solid #808080;
@@ -52,6 +56,10 @@
     padding: 2vh 0;
 }
 
+.navigation-icons:hover {
+    border: 1px solid #F2F2F2;
+}
+
 .icon {
     font-size: 1.2vw;
     color: #808080;
@@ -59,4 +67,14 @@
     margin-right: auto;
     margin-top: 1.2vh;
     margin-bottom: 1.2vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #F2F2F2;
+}
+
+.inView {
+    color: #4FC978;
 }
