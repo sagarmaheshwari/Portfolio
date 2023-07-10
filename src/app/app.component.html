@@ -1,4 +1,4 @@
 <div class="body" [ngStyle]="{'height.px': innerHeight, 'width.px': innerWidth}">
-  <app-mobile *ngIf="innerWidth>1200"></app-mobile>
+  <app-mobile *ngIf="innerWidth>innerHeight"></app-mobile>
   <app-content></app-content>
 </div>

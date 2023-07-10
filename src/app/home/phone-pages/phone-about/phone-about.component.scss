@@ -1,0 +1,29 @@
+.page {
+    padding-top: 5vh;
+    height: 100vh;
+    width: 100%;
+    font-family: grotesk;
+    color: #F2F2F2;
+    box-sizing: border-box;
+}
+
+.heading {
+    margin-top: 4vh;
+    font-size: 11vw;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 4vh;
+}
+
+.name {
+    color: #4FC978;
+}
+
+.description {
+    padding-right: 2vw;
+    font-size: 4vw;
+    color: #808080;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: distribute;
+}

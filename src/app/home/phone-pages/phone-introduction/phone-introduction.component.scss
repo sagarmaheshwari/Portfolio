@@ -1,0 +1,43 @@
+.page {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: grotesk;
+    color: #F2F2F2;
+    padding-top: 5vh;
+}
+
+.heading {
+    margin-top: 3vh;
+    font-size: 14vw;
+    font-weight: 300;
+}
+
+.heading-2 {
+    font-size: 12vw;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 4vh;
+}
+
+.name {
+    color: #4FC978;
+}
+
+.description {
+    font-size: 4vw;
+    color: #808080;
+    line-height: 1.6;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+}
+
+.exp-block {
+    display: flex;
+    margin-right: 10vw;
+    flex-direction: column;
+}

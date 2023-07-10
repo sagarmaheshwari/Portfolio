@@ -4,6 +4,7 @@ import { MobileComponent } from './mobile/mobile.component';
 import { SharedModule } from '../shared/shared.module';
 import { PagesModule } from './pages/pages.module';
 import { ContentComponent } from './content/content.component';
+import { PhonePagesModule } from './phone-pages/phone-pages.module';
 
 
 
@@ -16,6 +17,7 @@ import { ContentComponent } from './content/content.component';
     CommonModule,
     SharedModule,
     PagesModule,
+    PhonePagesModule
   ],
   exports: [
     MobileComponent,
