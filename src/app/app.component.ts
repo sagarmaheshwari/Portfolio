@@ -13,12 +13,11 @@ export class AppComponent {
   ngOnInit() {
     this.innerHeight = window.innerHeight;
     this.innerWidth = window.innerWidth;
-    console.log(this.innerHeight, this.innerWidth)
   }
 
   @HostListener('window:resize', ['$event'])
   onResize() {
-  this.innerWidth = window.innerWidth;
-  this.innerHeight = window.innerHeight;
-}
+    this.innerWidth = window.innerWidth;
+    this.innerHeight = window.innerHeight;
+  }
 }

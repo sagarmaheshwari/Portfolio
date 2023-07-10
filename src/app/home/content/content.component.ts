@@ -11,21 +11,37 @@ export class ContentComponent implements OnInit {
   inView: string = 'introduction';
   viewSub: any;
 
+  innerWidth?: any;
+  innerHeight?: any;
+
   constructor(
     private inViewService: InViewService
   ) {
 
     this.viewSub = inViewService.pageInView.subscribe( (val: string) => {
       this.inView = val;
-      console.log(val);
     })
 
   }
 
   ngOnInit(): void {
+    this.innerHeight = window.innerHeight;
+    this.innerWidth = window.innerWidth;
+    // console.log(this.innerWidth);
   }
 
   onClickScroll(elementId: string) {
     document.getElementById(elementId)?.scrollIntoView({behavior: "smooth"});
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+    this.innerHeight = window.innerHeight;
+    console.log(this.innerWidth);
+  }
+
+  isSuff() {
+    return this.innerWidth>1200;
   }
 }

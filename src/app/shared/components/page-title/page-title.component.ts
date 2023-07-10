@@ -20,7 +20,6 @@ export class PageTitleComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log(this.tile);
     this.observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {

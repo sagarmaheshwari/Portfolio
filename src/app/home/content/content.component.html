@@ -1,13 +1,13 @@
-<div class="body">
-    <div class="content">
+<div class="body" >
+    <div class="content" [ngClass]="innerWidth<=1200? 'wide' : ''" >
         <app-introduction id="introduction"></app-introduction>
         <app-about id="about"></app-about>
         <app-resume id="resume"></app-resume>
         <app-skills id="skills"></app-skills>
         <app-contact id="contact"></app-contact>
     </div>
-    <div class="navigation-bar">
-        <div class="bx bx-menu menu"></div>
+    <div *ngIf="isSuff()" class="navigation-bar">
+        <!-- <div class="bx bx-menu menu"></div> -->
         <div class="navigation-icons">
             <a class="bx bx-home icon" [ngClass]="inView == 'introduction'? 'inView':''" (click)="onClickScroll('introduction')"></a>
             <a class="bx bx-user icon" [ngClass]="inView == 'about'? 'inView':''" (click)="onClickScroll('about')"></a>
